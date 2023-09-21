@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Ash's Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/style.css"> 
 </head>
 <body>
@@ -11,14 +12,15 @@
   </header>
 
   <div class="main">
-    <div class="nav">
+    <nav>
       <ul>
-        <li><a href="#">Home</a></li> 
+        <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#">Login</a></li>
       </ul>
-    </div>
+    </nav>
+  
     <div class="content">
       <div class="post">
         <img src="./assets/img/post.webp" alt="">
@@ -31,6 +33,15 @@
           Another hot trend is the rise of the <strong>Internet</strong> and online services. America Online recently reached 10 million subscribers to its popular dial-up service. With easy to use interfaces, people from all backgrounds are getting hooked on browsing the ever-expanding World Wide Web. Experts estimate web use will grow over 1000% in the coming years.</p>
       </div>
     </div>
+    <script>
+      // Mobile Menu Toggle
+      const menuIcon = document.querySelector('.menu-icon');
+      const menu = document.querySelector('.menu');
+  
+      menuIcon.addEventListener('click', function() {
+        menu.classList.toggle('open');
+      });
+    </script>
   </div>
   
   <footer>
