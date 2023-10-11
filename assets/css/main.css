@@ -1,0 +1,61 @@
+/* main.css */
+
+@import 'vars.css';
+@import 'reset.css';
+@import 'global.css';
+
+.logo {
+  width: 100%;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 200px ) {
+  .logo {
+    display: none;
+  }
+}
+
+article img {
+  width: 100%;
+}
+
+.page__image {
+  margin: 4em 2.5em;
+  min-width: 17rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 660px ) {
+  .page__image {
+    margin: 1em 0;
+  }
+}
+
+.dude {
+  background-color: red;
+  width: 100%;
+  display: none;
+  text-align: center;
+  height: 64px;
+  font-size: 2.5em;
+}
+
+@media screen and (max-width: 200px ) {
+  .dude {
+    display: block;
+  }
+}
+
+.contact-method__image {
+  max-width: 10em;
+  padding: 2em;
+}
+
+.contact-method__title {
+  transition: color 1s;
+}
+
+.grid-item:hover .contact-method__title {
+  color: var(--text-secondary-color);
+}
