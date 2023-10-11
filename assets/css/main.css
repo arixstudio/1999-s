@@ -32,6 +32,10 @@
   }
 }
 
+.page__image img {
+  width: 100%;
+}
+
 .site-header__dude {
   background-color: red;
   width: 100%;
