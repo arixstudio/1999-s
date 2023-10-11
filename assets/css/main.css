@@ -4,20 +4,16 @@
 @import 'reset.css';
 @import 'global.css';
 
-.logo {
+.site-header__logo {
   width: 100%;
   margin-left: 5%;
   margin-top: 40px;
 }
 
 @media screen and (max-width: 200px ) {
-  .logo {
+  .site-header__logo {
     display: none;
   }
-}
-
-article img {
-  width: 100%;
 }
 
 .page__image {
@@ -32,7 +28,7 @@ article img {
   }
 }
 
-.dude {
+.site-header__dude {
   background-color: red;
   width: 100%;
   display: none;
@@ -42,7 +38,7 @@ article img {
 }
 
 @media screen and (max-width: 200px ) {
-  .dude {
+  .site-header__dude {
     display: block;
   }
 }
