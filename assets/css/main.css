@@ -10,6 +10,10 @@
   margin-top: 40px;
 }
 
+.main__image {
+  width: 100%;
+}
+
 @media screen and (max-width: 200px ) {
   .site-header__logo {
     display: none;
